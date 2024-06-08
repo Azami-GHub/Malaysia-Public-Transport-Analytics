@@ -1,5 +1,7 @@
 # Clustering Comparison: DBSCAN vs KMeans
 
+![Cluster Visualization](images/kmeans_vs_dbscan.png)
+
 ## DBSCAN Clustering:
 ### Cluster Distribution:
 DBSCAN has identified several clusters, with many points labeled as noise (purple points labeled 0).
