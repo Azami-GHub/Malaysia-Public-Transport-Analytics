@@ -38,6 +38,30 @@ The evaluation metrics provided (Silhouette Score, Davies-Bouldin Score, and Cal
 - Davies-Bouldin Index: Lower for KMeans, indicating more compact and well-separated clusters.
 - Calinski-Harabasz Index: Higher for KMeans, indicating better cluster separation.
 
+## Definition of Evaluation Metrics:
+### Silhouette Score:
+
+- **Definition**: Measures how similar an object is to its own cluster compared to other clusters.
+- **Range**: -1 to 1
+- **Interpretation**:
+  - A score close to 1 indicates that the object is well matched to its own cluster and poorly matched to neighboring clusters.
+  - A score near 0 indicates that the object is on or very close to the decision boundary between two neighboring clusters.
+  - A negative score indicates that the object might have been assigned to the wrong cluster.
+
+### Davies-Bouldin Index:
+
+- **Definition**: Measures the average similarity ratio of each cluster with respect to other clusters, based on cluster dispersion and cluster centroids.
+- **Range**: 0 to ∞
+- **Interpretation**:
+  - Lower values indicate better clustering, as it signifies that the clusters are compact and well separated.
+
+### Calinski-Harabasz Index:
+
+- **Definition**: Ratio of the sum of between-cluster dispersion to within-cluster dispersion.
+- **Range**: 0 to ∞
+- **Interpretation**:
+  - Higher values indicate better clustering, as it signifies that the clusters are dense and well separated.
+
 ## Conclusion:
 KMeans is the preferable clustering method for this dataset. It provides clear, well-separated clusters that align with the data trend.
 DBSCAN can still be useful if your goal is to identify noise or outliers in the data, but it does not provide as clear a clustering structure as KMeans for this particular dataset.
