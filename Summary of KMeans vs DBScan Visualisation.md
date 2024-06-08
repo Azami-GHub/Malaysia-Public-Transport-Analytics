@@ -1,6 +1,6 @@
 # Clustering Comparison: DBSCAN vs KMeans
 
-![Cluster Visualization](images/kmeans_vs_dbscan.png)
+![Cluster Visualization](kmeans_vs_dbscan.png)
 
 ## DBSCAN Clustering:
 ### Cluster Distribution:
