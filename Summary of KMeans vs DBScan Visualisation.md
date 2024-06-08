@@ -2,7 +2,7 @@
 
 ![KMeans vs DBSCAN Comparison](kmeans_vs_dbscan.png)
 
-![alt text](https://github.com/Azami-GHub/Malaysia-Public-Transport-Analytics/blob/main/kmeans_vs_dbscan.png)
+![alt text](https://github.com/Azami-GHub/Malaysia-Public-Transport-Analytics/blob/main/kmeans_vs_dbscan.png?raw=True)
 
 ## DBSCAN Clustering:
 ### Cluster Distribution:
