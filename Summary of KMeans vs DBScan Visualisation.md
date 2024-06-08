@@ -2,6 +2,8 @@
 
 ![KMeans vs DBSCAN Comparison](kmeans_vs_dbscan.png)
 
+![alt text](https://github.com/Azami-GHub/Malaysia-Public-Transport-Analytics/blob/main/kmeans_vs_dbscan.png)
+
 ## DBSCAN Clustering:
 ### Cluster Distribution:
 DBSCAN has identified several clusters, with many points labeled as noise (purple points labeled 0).
